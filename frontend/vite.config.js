@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://mirzat.onrender.com',
+        target: 'https://mirzat-masterjii.onrender.com',
         changeOrigin: true,
         secure: true,
       }
