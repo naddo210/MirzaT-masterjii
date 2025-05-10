@@ -34,7 +34,7 @@ const PackageManager = () => {
 
   const fetchPackages = async () => {
     try {
-      const response = await fetch('https://mirzat.onrender.com/api/packages');
+      const response = await fetch('https://mirzat-masterjii.onrender.com/api/packages');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -50,8 +50,8 @@ const PackageManager = () => {
     try {
       const method = currentPackage._id ? 'PUT' : 'POST';
       const url = currentPackage._id 
-        ? `https://mirzat.onrender.com/api/packages/${currentPackage._id}`
-        : 'https://mirzat.onrender.com/api/packages';
+        ? `https://mirzat-masterjii.onrender.com/api/packages/${currentPackage._id}`
+        : 'https://mirzat-masterjii.onrender.com/api/packages';
 
       const response = await fetch(url, {
         method,
@@ -87,7 +87,7 @@ const PackageManager = () => {
   const handleDelete = async (id) => {
     if (window.confirm('Are you sure you want to delete this package?')) {
       try {
-        const response = await fetch(`https://mirzat.onrender.com/api/packages/${id}`, {
+        const response = await fetch(`https://mirzat-masterjii.onrender.com/api/packages/${id}`, {
           method: 'DELETE',
         });
         
