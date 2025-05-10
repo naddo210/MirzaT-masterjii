@@ -34,7 +34,7 @@ const AdminReviews = () => {
 
   const fetchReviews = async () => {
     try {
-      const response = await axios.get('https://mirzat.onrender.com/api/reviews');
+      const response = await axios.get('https://mirzat-masterjii.onrender.com/api/reviews');
       console.log('Fetched reviews:', response.data); // Add this to debug
       setReviews(response.data || []); // Ensure we always have an array
     } catch (error) {
@@ -51,7 +51,7 @@ const AdminReviews = () => {
     }
 
     try {
-      const response = await axios.post('https://mirzat.onrender.com/api/reviews', {
+      const response = await axios.post('https://mirzat-masterjii.onrender.com/api/reviews', {
         name: newReview.name,
         description: newReview.description,
         rating: Number(newReview.rating)
@@ -71,7 +71,7 @@ const AdminReviews = () => {
     if (!id) return; // Guard against undefined id
     
     try {
-      await axios.delete(`https://mirzat.onrender.com/api/reviews/${id}`);
+      await axios.delete(`https://mirzat-masterjii.onrender.com/api/reviews/${id}`);
       fetchReviews();
     } catch (error) {
       console.error('Error deleting review:', error);
