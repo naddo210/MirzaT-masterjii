@@ -1,0 +1,2695 @@
+.about-container {
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+.about-top h1 {
+    color: #080808;
+    font-weight: 600;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.abt-info h2 {
+    color: #3d3c3c;
+
+}
+
+.abt-info {
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.abt-info p {
+    color: #585858;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    word-spacing: 1px;
+    line-height: 1.3rem
+}
+
+.abt-info p span {
+    color: #080808;
+    font-weight: 600;
+}
+
+.btns {
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.choose{
+   color: #201f1f;
+   text-align: start;
+   line-height: 1.3rem;
+   font-size: 1.2rem;
+   margin-top: 1rem;
+}
+.choose ul li{
+    list-style: none;
+   margin-top: 15px;
+   border: 2px solid black;
+   padding: 10px;
+   padding-right: 4px;
+   border-radius: 10px;
+   width: 100%;
+}
+
+.accordion-item {
+  border: 1px solid #000;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.arrow-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+  color: #000;
+}
+
+.accordion-content.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: white;
+  padding: 0 20px;
+}

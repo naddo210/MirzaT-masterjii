@@ -1,0 +1,119 @@
+.admin-panel {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Table Styles */
+.admin-panel .MuiTableContainer-root {
+  margin-top: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-panel .MuiTableCell-head {
+  background-color: #1a237e;
+  color: white;
+  font-weight: 600;
+  padding: 16px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.admin-panel .MuiTableRow-root {
+  transition: background-color 0.3s ease;
+}
+
+.admin-panel .MuiTableRow-root:hover {
+  background-color: rgba(26, 35, 126, 0.05);
+}
+
+.admin-panel .MuiTableCell-body {
+  padding: 12px 16px;
+  font-size: 0.9rem;
+}
+
+/* Button and Icon Styles */
+.admin-panel .MuiIconButton-root {
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.admin-panel .MuiIconButton-root:hover {
+  background-color: rgba(26, 35, 126, 0.1);
+  transform: scale(1.1);
+}
+
+/* Dialog Styles */
+.admin-panel .MuiDialog-paper {
+  min-width: 400px;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.admin-panel .MuiDialog-title {
+  color: #1a237e;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(26, 35, 126, 0.1);
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+/* Form Field Styles */
+.admin-panel .MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.admin-panel .MuiInputLabel-root {
+  color: #1a237e;
+}
+
+.admin-panel .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.admin-panel .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1a237e;
+}
+
+/* Button Styles */
+.admin-panel .MuiButton-contained {
+  background-color: #1a237e;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 24px;
+  text-transform: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.admin-panel .MuiButton-contained:hover {
+  background-color: #0d1642;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(26, 35, 126, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .admin-panel {
+    padding: 10px;
+  }
+  
+  .admin-panel .MuiDialog-paper {
+    min-width: 300px;
+    padding: 16px;
+  }
+
+  .admin-panel .MuiTableCell-head {
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  .admin-panel .MuiTableCell-body {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}
